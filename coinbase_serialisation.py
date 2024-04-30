@@ -6,7 +6,7 @@ from hashlib import sha256
 from ecdsa import VerifyingKey, SECP256k1
 from base64 import b64decode
 
-from conversion import encode
+from convert import encode
 
 
 

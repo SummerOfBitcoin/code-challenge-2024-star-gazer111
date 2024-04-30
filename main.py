@@ -7,9 +7,9 @@ from hashlib import sha256
 from ecdsa import VerifyingKey, SECP256k1
 from base64 import b64decode
 
-from serelization import Serelization, dsha, rev, sha, little_endian, transaction_id, remove_json, testing, checking_ptr, total_fees_df, wtxid_Serelization
-from conversion import encode
-from block import merkleroot, coinbase_txid_fn, block_header, wtxid_commitment
+from coinbase_serialisation import Serelization, dsha, rev, sha, little_endian, transaction_id, remove_json, testing, checking_ptr, total_fees_df, wtxid_Serelization
+from convert import encode
+from blockchain import merkleroot, coinbase_txid_fn, block_header, wtxid_commitment
 
 '''
 TODO :
