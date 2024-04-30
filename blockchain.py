@@ -7,8 +7,8 @@ from hashlib import sha256
 from ecdsa import VerifyingKey, SECP256k1
 from base64 import b64decode
 
-from serelization import Serelization, dsha, rev, sha, little_endian, transaction_id, remove_json, testing, checking_ptr, wtxid_Serelization
-from conversion import encode
+from coinbase_serialisation import Serelization, dsha, rev, sha, little_endian, transaction_id, remove_json, testing, checking_ptr, wtxid_Serelization
+from convert import encode
 
 
 def coinbase_txid_fn(coinbase_json_data):
